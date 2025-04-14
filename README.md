@@ -4,6 +4,7 @@
 This project leverages **machine learning**, specifically regression models, to streamline the process of drug discovery. By training machine learning models on the SMILES (`Simplified Molecular Input Line Entry System`) representations of molecules, we aim to predict key molecular properties such as lipophilicity (`AlogP`) and ligand interaction metrics (`BEI`, `LLE`, `LE`, `SEI`) using the Circular Fingerprint.
 
 Using ML, this approach helps **reduce** the high cost, time, and complexity associated with traditional drug development, thus making the process faster and more efficient compared to the latter approach.
+
 ---------------------------------------------------------------------
 ### Machine Learning Models Used:
 1. AdaBoost Regressor
