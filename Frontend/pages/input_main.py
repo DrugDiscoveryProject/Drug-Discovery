@@ -16,10 +16,10 @@ from streamlit_option_menu import option_menu
 import gzip
 
 
-model_list = ["AdaBoost","Bagging" ,"Decision Tree", "Gradient Boosting", "Huber", "KNN", "Random Forest", "SVR", "XGBoost"]
+model_list = ["AdaBoost" ,"Decision Tree", "Gradient Boosting", "Huber", "KNN", "Random Forest", "SVR", "XGBoost"]
 key_list = ["AdaBoost","Bagging" ,"DT", "GBR", "Huber", "KNN", "RF", "SVR", "XGB"]
-fingerprint_list = ['Circular Fingerprint', 'MACCS Fingerprint', 'RDKit Fingerprint']
-fingerprint_key_list = ["Circular", "MACCS", "RDKit"]
+fingerprint_list = ['Circular Fingerprint']
+fingerprint_key_list = ["Circular"]
 
 def iupac_to_smiles(iupac):
     iupac = iupac.lower()
@@ -91,7 +91,7 @@ def predict_values(smiles, fingerprint, key):
 
     fingerprint_selected = fingerprint_key_list[fingerprint]
     model_selected = key_list[key]
-    location = f"./Models/{fingerprint_selected}/{model_selected}{fingerprint_selected}.pkl.gz"
+    location = f"./Models/{model_selected}{fingerprint_selected}.pkl.gz"
 
     with gzip.open(location, 'rb') as f:
         model = pickle.load(f)
