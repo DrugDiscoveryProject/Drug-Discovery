@@ -96,7 +96,7 @@ def predict_values(smiles, fingerprint, key):
     with gzip.open(location, 'rb') as f:
         model = pickle.load(f)
     
-    result_set = model.predict(smile)  
+    result_set = model.predict(smiles)  
     result_set = result_set[0]
 
     return result_set[0], result_set[1], result_set[2], result_set[3], result_set[4]
