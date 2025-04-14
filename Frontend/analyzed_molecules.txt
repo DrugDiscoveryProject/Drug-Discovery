@@ -1,0 +1,12 @@
+OC[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)C=O
+OC[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)C=O
+OC[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)C=O
+OC[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)C=O
+
+OC[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)C=O
+OC[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)C=O
+
+[3H][3H]
+CC(=O)Oc1ccccc1C(O)=O
+CC(=O)Oc1ccccc1C(O)=O
+CC(=O)Oc1ccccc1C(O)=O
