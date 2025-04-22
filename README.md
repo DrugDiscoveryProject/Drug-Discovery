@@ -37,8 +37,7 @@ pip install -r requirements.txt
 **Running the project**:
 This project includes several shell scripts for automating tasks:
 
-- `train_model.sh`: Automates the training process for all models.
-- `evaluate_model.sh`: Evaluates all trained models and saves the results.
+- `run.sh`: Automates copying trained models to the frontend and launches the Streamlit app.
 - `file_management.sh`: Organizes output and removes unnecessary files.
 
 To run any of the scripts, use the following commands:
