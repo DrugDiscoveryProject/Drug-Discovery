@@ -1,10 +1,10 @@
 #!/bin/bash
 
-folder
-mkdir -p output_models
-mv .pkl output_models/
+current_dir=$(pwd)
 
-rm -rf pycache
-rm -rf.ipynb_checkpoints
+mkdir -p "$current_dir/output_models"
+
+mv "$current_dir/"/*.pkl "$current_dir/output_models/"
+
 
 echo "Files organized successfully."
